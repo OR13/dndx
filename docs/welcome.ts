@@ -1,1 +1,3 @@
-console.log("Welcome to Deno 🦕");
+export const welcome = () => {
+  console.log("Welcome to Deno 🦕");
+};
