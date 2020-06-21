@@ -1,6 +1,14 @@
 # 🦕 deno-module-starter
 
+![CI](https://github.com/OR13/dndx/workflows/CI/badge.svg)
+
 [Deno](https://deno.land) yet another... module starter repository.
+
+Clone repo, find replace `OR13/dndx`... `github-user/repo-name`...
+
+```bash
+./scripts/shove
+```
 
 ## Usage
 
