@@ -1,26 +1,31 @@
-# dndx
+# 🦕 deno-module-starter
 
-Something like https://github.com/jaredpalmer/tsdx for deno...
+[Deno](https://deno.land) module starter repository.
 
-Just use this instead... https://dev.to/brunnerlivio/create-your-first-module-with-deno-575k
+## Usage
 
-### Install Deno
+```typescript
+import { getHelloWorld } from "https://raw.githubusercontent.com/BrunnerLivio/deno-module-starter/{VERSION}/mod.ts";
 
-See [deno docs](https://deno.land/manual/getting_started/installation)
-
-```
-curl -fsSL https://deno.land/x/install/install.sh | sh
-```
-
-### Clone
-
-```
-git clone git@github.com:OR13/dndx.git
-cd dndx;
+const helloWorld = getHelloWorld();
+console.log(helloWorld); // Prints "Hello World" in bold
 ```
 
-### Test
+## Test
 
+```bash
+# unit tests
+deno ./test.ts
 ```
-deno test
+
+## Format code
+
+```bash
+deno fmt **/*.ts
 ```
+
+## Resources
+
+- [Deno Website](https://deno.land)
+- [Deno Style Guide](https://deno.land/std/style_guide.md)
+- [Deno Gitter](https://gitter.im/denolife/Lobby)
