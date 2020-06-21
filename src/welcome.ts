@@ -1,1 +1,1 @@
-console.log("Welcome to Deno 🦕");
+import * from 'https://or13.github.io/dndx/welcome.ts'
