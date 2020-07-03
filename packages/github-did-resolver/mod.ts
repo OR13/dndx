@@ -1,3 +1,5 @@
+import { bold } from "./deps.ts";
+
 export function get_module(url: string): string {
   const github_user = url.split("did:github:")[1].split("/")[0];
   const remaining_path = url.split(`did:github:${github_user}/`)[1];
